@@ -1,4 +1,4 @@
-const data = [
+export const data = [
     {
         sentence: "1. I want ___ apple",
         choices: ["an","a"],
