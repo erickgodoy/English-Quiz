@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background: #54ef74;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#test{
+    background: #ff3eff;
+    width: 40rem;
+    padding: 4rem;
+    text-align: center;
+}
+
+#title{
+    font-size: 1.7rem;
+    padding: 1.5rem 0;
+}
+
+#subtitle{
+    font-size: 0.8rem;
+    padding: 0.2rem 0;
+}
+
+#sentence{
+    font-size: 1.2rem;
+}
+
+.button{
+    background: #488745;
+    color: #fff;
+    width: 250px;
+    font-size: 20px;
+    border-radius: 0.3rem;
+    padding: 10px 20px;
+    margin: 10px 40px;
+    outline: 0;
+}
+
+.button:hover{
+    cursor: pointer;
+    background: #482159;
+}
+
+#progress{
+    font-size: 18px;
+}
