@@ -9,7 +9,7 @@ function renderApp(Quiz,ui){
         Quiz.guess(optionSelected);
         if(Quiz.isEnded()){
             const containerTest = document.getElementById('test');
-            containerTest.innerHTML = '';
+            containerTest.innerHTML = `<h3>Puntaje Obtenido: ${Quiz.score}</h3>`;
         }else{
             renderApp(Quiz,ui);    
         }

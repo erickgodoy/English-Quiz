@@ -41,7 +41,7 @@ export const data = [
     },    
     {
         sentence: "9. She is ___",
-        choices: ["smarter","smartest"],
+        choices: ["smarter","the smartest"],
         answer: "the smartest"
     },    
     {
