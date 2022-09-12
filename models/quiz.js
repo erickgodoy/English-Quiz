@@ -17,7 +17,7 @@ export class quiz{
      * 
      * @returns {boolean} true if the quiz is over
      */
-    idEnded(){
+    isEnded(){
         return this.questionIndex === this.questions.length;
     }
 
@@ -26,6 +26,7 @@ export class quiz{
      * @param {string} answer some text
      */
     guess(answer){
+        console.log(answer);
         if(this.getquestionIndex().correctAnswer(answer)){
             this.score++;
         }
