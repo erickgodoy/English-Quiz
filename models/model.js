@@ -1,4 +1,4 @@
-class test{
+export class question{
 
     /**
      * 
@@ -22,5 +22,4 @@ class test{
     correctAnswer(answer){
         return answer === this.answer;
     }
-    
-}
+} 
